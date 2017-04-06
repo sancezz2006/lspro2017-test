@@ -6,6 +6,7 @@ html{
 body{
     background: #f0f0f0;
     height: 100%;
+    margin: 0px;
 }
 .wrapper{
     min-height: 100%;
@@ -39,8 +40,21 @@ a{
     box-sizing: border-box;
 }
 
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
 /*------ header ------*/
 
 .header{
     background: #8cc34b;
+    color: #ffffff;
+}
+
+/*------ footer ------*/
+
+.footer{
+    background: #212121;
+    color: #8cc34b;
 }
