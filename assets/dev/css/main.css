@@ -12,15 +12,16 @@ body{
     min-height: 100%;
     overflow: hidden;
     position: relative;
+    background-image: url("/img/gplaypattern.png");
 }
 .footer{
-    height: 115px;
-    margin-top: -115px;
+    height: 71px;
+    margin-top: -71px;
     position: relative;
 }
 
 .empty{
-    height: 115px;
+    height: 71px;
 }
 ul {
     padding: 0;
@@ -45,6 +46,10 @@ a{
     margin: 0 auto;
 }
 
+.center{
+    text-align: center;
+}
+
 /*------ header ------*/
 
 .header{
@@ -57,4 +62,18 @@ a{
 .footer{
     background: #212121;
     color: #8cc34b;
+}
+
+.footer__address{
+    text-align: center;
+    padding-top: 10px;
+    line-height: 140%;
+}
+
+/*------ content ------*/
+.bg_white{
+    background-color: #ffffff;
+}
+.bg_wrap{
+
 }
