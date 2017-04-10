@@ -41,6 +41,10 @@ a{
     box-sizing: border-box;
 }
 
+h1{
+    margin: 0.0em 0;
+}
+
 .container{
     width: 940px;
     margin: 0 auto;
@@ -50,11 +54,92 @@ a{
     text-align: center;
 }
 
+.clearfix {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
 /*------ header ------*/
 
 .header{
     background: #8cc34b;
     color: #ffffff;
+    height: 90px;
+
+
+}
+
+.header__logo{
+    padding-left: 30px;
+}
+
+.logo__pic{
+    float: left;
+    padding-top: 13px;
+}
+.header__name{
+    position: relative;
+    float: left;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.bigname{
+font-size: 21px;
+}
+.miniemail{
+    font-size: 14px;
+}
+.header__sociale{
+    float: right;
+    width: 200px;
+    padding-right: 10px;
+    padding-top: 25px;
+}
+.soc__list{
+
+}
+.soc__list ul li{
+
+}
+.soc__item{
+    display: inline-block;
+    opacity: 0.7;
+    transition-duration: 0.5s;
+    position: relative;
+    padding-left: 15px
+
+}
+.soc__item:hover {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+.soc__link{
+
+}
+
+.soc__git{
+    background-image: url("/img/lspro_git.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 31px;
+    width: 30px;
+}
+.soc__skype{
+    background-image: url("/img/lspro_skype.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 31px;
+    width: 30px;
+}
+.soc__vk{
+    background-image: url("/img/lspro_vk.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 39px;
 }
 
 /*------ footer ------*/
@@ -73,7 +158,36 @@ a{
 /*------ content ------*/
 .bg_white{
     background-color: #ffffff;
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.33);
+    padding-top: 85px;
+    padding-bottom: 85px;
 }
 .bg_wrap{
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+.aboutme{
+width: 50%;
+    text-align: left;
+    padding-left: 165px;
+    float:left; display:block;
+}
+.whoiam{
+    background-image: url("/img/lspro_hello.png");
+    background-repeat: no-repeat;
 
+}
+.skills{
+    background-image: url("/img/lspro_experience.png");
+    background-repeat: no-repeat;
+}
+
+.course__list{
+
+}
+.course__item{
+    display: block;
+    list-style: none;
+    float: left;
+    width: 33%;
 }
